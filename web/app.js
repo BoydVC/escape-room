@@ -671,7 +671,7 @@
       <div class="title-hero">
         ${heroArt()}
         <h1>Boyd Family Escape Room</h1>
-        <p class="tag">The helper bots locked the house control room. Char, Vic, and Boyd must clear themed rooms — crabs, rockets, sports, robots, and word play — to win back the keys.</p>
+        <p class="tag">The helper bots locked the house control room. Alex, Sam, and Boyd must clear themed rooms — crabs, rockets, sports, robots, and word play — to win back the keys.</p>
         <div class="btn-row">
           <button class="btn" id="btn-start">Start Escape</button>
           <button class="btn secondary" id="btn-relaxed">Relaxed Mode</button>
@@ -812,7 +812,7 @@
   }
 
   function sizeChip(size) {
-    const cls = size.startsWith("Vic") ? "vic" : size.startsWith("Char") ? "char" : "team";
+    const cls = size.startsWith("Sam") ? "vic" : size.startsWith("Alex") ? "char" : "team";
     return `<span class="chip ${cls}">${esc(size)}</span>`;
   }
 
@@ -965,7 +965,7 @@
       <div class="cert">
         <div style="font-size:2.5rem">🏆</div>
         <h1>Control Room Restored</h1>
-        <p style="color:var(--muted);max-width:28rem;margin:0 auto">Certificate of Escape — Boyd Family Escape Room. Char, Vic, and Boyd outsmarted the helper bots and unlocked every door.</p>
+        <p style="color:var(--muted);max-width:28rem;margin:0 auto">Certificate of Escape — Boyd Family Escape Room. Alex, Sam, and Boyd outsmarted the helper bots and unlocked every door.</p>
         <div class="stats">
           <div class="stat"><b>${total}/${total}</b><span>Puzzles</span></div>
           <div class="stat"><b>${formatTime(state.elapsed)}</b><span>Time</span></div>

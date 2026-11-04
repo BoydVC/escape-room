@@ -1,6 +1,6 @@
 # Boyd Family Escape Room
 
-Offline cooperative browser escape room for Char, Vic, and Boyd. The helper bots locked the house control room — clear six themed rooms (crabs, rockets, sports, robots, word play, vault) to win the keys back.
+Offline cooperative browser escape room for Alex, Sam, and Boyd. The helper bots locked the house control room — clear six themed rooms (crabs, rockets, sports, robots, word play, vault) to win the keys back.
 
 Progress saves in `localStorage` on this device. No accounts, no network, no CDN fonts or scripts.
 
