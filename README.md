@@ -1,6 +1,6 @@
 # Boyd Family Escape Room
 
-Offline cooperative browser escape room for Char, Vic, and Boyd. The helper bots locked the house control room — clear six themed rooms (crabs, rockets, sports, robots, word play, vault) to win the keys back.
+Offline cooperative browser escape room for Alex, Sam, and Boyd. The helper bots locked the house control room — clear six themed rooms (crabs, rockets, sports, robots, word play, vault) to win the keys back.
 
 Progress saves in `localStorage` on this device. No accounts, no network, no CDN fonts or scripts.
 
@@ -8,7 +8,7 @@ Progress saves in `localStorage` on this device. No accounts, no network, no CDN
 
 1. Open the game and tap **Start Escape** (45:00 challenge timer) or **Relaxed Mode** (no timer pressure).
 2. Rooms unlock in order. Finish both puzzles in a room to open the next.
-3. Puzzles are tagged **Vic-size**, **Char-size**, or **Team** so everyone gets a turn.
+3. Puzzles are tagged **Sam-size**, **Alex-size**, or **Team** so everyone gets a turn.
 4. Use up to 3 progressive hints per puzzle. Mute with the speaker button.
 5. Clear the Final Vault to earn the Certificate of Escape.
 

@@ -54,7 +54,7 @@
         {
           id: "crab-plates",
           title: "Plate Count",
-          size: "Vic-size",
+          size: "Sam-size",
           type: "number",
           prompt: "Three platters of crabs sit on the counter. The labels say <strong>4</strong>, <strong>7</strong>, and <strong>5</strong> crabs. The keypad wants the <em>total</em> number of crabs.",
           art: "plates",
@@ -70,7 +70,7 @@
         {
           id: "crab-cipher",
           title: "Bay Cipher",
-          size: "Char-size",
+          size: "Alex-size",
           type: "text",
           prompt: "A sticky note uses a Caesar cipher (each letter shifted <strong>forward by 3</strong>). Decode: <strong>FDEEV</strong>",
           art: "cipher",
@@ -96,7 +96,7 @@
         {
           id: "launch-seq",
           title: "Stage Sequence",
-          size: "Vic-size",
+          size: "Sam-size",
           type: "number",
           prompt: "Fuel gauges climb in a pattern: <strong>1 → 2 → 4 → 8 → ?</strong> What number comes next?",
           art: "rocket",
@@ -139,7 +139,7 @@
         {
           id: "locker-anagram",
           title: "Jersey Scramble",
-          size: "Char-size",
+          size: "Alex-size",
           type: "text",
           prompt: "Unscramble the letters on the locker nameplate: <strong>S N E V A R</strong>",
           art: "jersey",
@@ -155,7 +155,7 @@
         {
           id: "locker-math",
           title: "Scoreboard Math",
-          size: "Vic-size",
+          size: "Sam-size",
           type: "number",
           prompt: "The practice scoreboard shows: Orioles scored <strong>3</strong> runs each inning for <strong>4</strong> innings, then <strong>2</strong> more in the 5th. Total runs?",
           art: "scoreboard",
@@ -181,7 +181,7 @@
         {
           id: "robots-pattern",
           title: "Blink Pattern",
-          size: "Vic-size",
+          size: "Sam-size",
           type: "text",
           prompt: "Five bots blink status lights in this order (R=red, G=green): <strong>R G R G ?</strong> What color should the 5th light be? Type <strong>R</strong> or <strong>G</strong>.",
           art: "bots",
@@ -224,7 +224,7 @@
         {
           id: "library-pigpen",
           title: "Pig-Pen Note",
-          size: "Char-size",
+          size: "Alex-size",
           type: "text",
           prompt: "The pig-pen grid (no dots) maps letters like a tic-tac-toe board:<br>A B C / D E F / G H I in the first three boxes (top row L→R), then J K L / M N O / P Q R, then S T U / V W X / Y Z for the bottom-style marks shown in the diagram. The chalkboard shows symbols for <strong>O P E N</strong>. Type the decoded word.",
           art: "pigpen",
@@ -671,7 +671,7 @@
       <div class="title-hero">
         ${heroArt()}
         <h1>Boyd Family Escape Room</h1>
-        <p class="tag">The helper bots locked the house control room. Char, Vic, and Boyd must clear themed rooms — crabs, rockets, sports, robots, and word play — to win back the keys.</p>
+        <p class="tag">The helper bots locked the house control room. Alex, Sam, and Boyd must clear themed rooms — crabs, rockets, sports, robots, and word play — to win back the keys.</p>
         <div class="btn-row">
           <button class="btn" id="btn-start">Start Escape</button>
           <button class="btn secondary" id="btn-relaxed">Relaxed Mode</button>
@@ -716,7 +716,7 @@
         <h2>How to Play</h2>
         <ol class="howto">
           <li>Work room by room — finish a room's puzzles to unlock the next.</li>
-          <li>Puzzles are labeled <span class="chip vic">Vic-size</span> <span class="chip char">Char-size</span> <span class="chip team">Team</span> so everyone gets a turn.</li>
+          <li>Puzzles are labeled <span class="chip vic">Sam-size</span> <span class="chip char">Alex-size</span> <span class="chip team">Team</span> so everyone gets a turn.</li>
           <li>Use up to 3 hints per puzzle (they get more specific).</li>
           <li>Collected keys appear in your inventory.</li>
           <li>Mute with the speaker button. Progress auto-saves.</li>
@@ -812,7 +812,7 @@
   }
 
   function sizeChip(size) {
-    const cls = size.startsWith("Vic") ? "vic" : size.startsWith("Char") ? "char" : "team";
+    const cls = size.startsWith("Sam") ? "vic" : size.startsWith("Alex") ? "char" : "team";
     return `<span class="chip ${cls}">${esc(size)}</span>`;
   }
 
@@ -965,7 +965,7 @@
       <div class="cert">
         <div style="font-size:2.5rem">🏆</div>
         <h1>Control Room Restored</h1>
-        <p style="color:var(--muted);max-width:28rem;margin:0 auto">Certificate of Escape — Boyd Family Escape Room. Char, Vic, and Boyd outsmarted the helper bots and unlocked every door.</p>
+        <p style="color:var(--muted);max-width:28rem;margin:0 auto">Certificate of Escape — Boyd Family Escape Room. Alex, Sam, and Boyd outsmarted the helper bots and unlocked every door.</p>
         <div class="stats">
           <div class="stat"><b>${total}/${total}</b><span>Puzzles</span></div>
           <div class="stat"><b>${formatTime(state.elapsed)}</b><span>Time</span></div>
