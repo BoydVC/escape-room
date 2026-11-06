@@ -1,4 +1,4 @@
-// Full solution-path playthrough of Boyd Family Escape Room via window.__ER__.
+// Full solution-path playthrough of Rivera Family Escape Room via window.__ER__.
 import { pathToFileURL } from "node:url";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";

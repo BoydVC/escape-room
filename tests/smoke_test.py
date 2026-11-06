@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Boyd Family Escape Room smoke test.
+"""Rivera Family Escape Room smoke test.
 Builds the offline snapshot, asserts self-contained HTML, then runs a headless
 Chrome playthrough (tests/play.mjs via CDP) of the full solution path to victory.
 Usage: python3 tests/smoke_test.py   (or ./run.sh test)

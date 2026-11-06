@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Boyd Family Escape Room: ./run.sh build|start|stop|restart|status|shots|test|all
+# Rivera Family Escape Room: ./run.sh build|start|stop|restart|status|shots|test|all
 set -euo pipefail
 cd "$(dirname "$0")"
 PORT="${ER_PORT:-4352}"
