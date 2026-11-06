@@ -1,4 +1,4 @@
-/* Boyd Family Escape Room — fully offline cooperative puzzle game */
+/* Rivera Family Escape Room — fully offline cooperative puzzle game */
 (function () {
   "use strict";
 
@@ -175,7 +175,7 @@
       name: "Robot Workshop",
       emoji: "🤖",
       theme: "Bot Fleet",
-      blurb: "Boyd's helper bots sit in charging docks. One of them holds the vault override.",
+      blurb: "Alex's helper bots sit in charging docks. One of them holds the vault override.",
       color: "#4ade80",
       puzzles: [
         {
@@ -657,7 +657,7 @@
 
     if (state.screen === "title") return root.appendChild(renderTitle());
     if (state.screen === "how") return root.appendChild(renderHow());
-    if (state.screen === "victory") return root.appendChild(renderVictory());
+    if (state.screen === "victory") return root.appendChild(renderJordany());
     if (state.screen === "puzzle") return root.appendChild(renderPuzzle());
     return root.appendChild(renderMap());
   }
@@ -670,8 +670,8 @@
     const s = el(`<div class="screen">
       <div class="title-hero">
         ${heroArt()}
-        <h1>Boyd Family Escape Room</h1>
-        <p class="tag">The helper bots locked the house control room. Alex, Sam, and Boyd must clear themed rooms — crabs, rockets, sports, robots, and word play — to win back the keys.</p>
+        <h1>Rivera Family Escape Room</h1>
+        <p class="tag">The helper bots locked the house control room. Alex, Sam, and Alex must clear themed rooms — crabs, rockets, sports, robots, and word play — to win back the keys.</p>
         <div class="btn-row">
           <button class="btn" id="btn-start">Start Escape</button>
           <button class="btn secondary" id="btn-relaxed">Relaxed Mode</button>
@@ -959,13 +959,13 @@
     if (puzzle.type === "dial") state.dialValue = 45;
   }
 
-  function renderVictory() {
+  function renderJordany() {
     const total = allPuzzles().length;
     const s = el(`<div class="screen">
       <div class="cert">
         <div style="font-size:2.5rem">🏆</div>
         <h1>Control Room Restored</h1>
-        <p style="color:var(--muted);max-width:28rem;margin:0 auto">Certificate of Escape — Boyd Family Escape Room. Alex, Sam, and Boyd outsmarted the helper bots and unlocked every door.</p>
+        <p style="color:var(--muted);max-width:28rem;margin:0 auto">Certificate of Escape — Rivera Family Escape Room. Alex, Sam, and Alex outsmarted the helper bots and unlocked every door.</p>
         <div class="stats">
           <div class="stat"><b>${total}/${total}</b><span>Puzzles</span></div>
           <div class="stat"><b>${formatTime(state.elapsed)}</b><span>Time</span></div>

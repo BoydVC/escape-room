@@ -153,7 +153,7 @@ body { overflow-x: hidden; }
 @keyframes popIn { to { transform: scale(1); } }
 @keyframes fadeOut { 70% { opacity: 1; } 100% { opacity: 0; } }
 
-/* Victory */
+/* Jordany */
 .cert {
   background: linear-gradient(160deg, #1e293b, #0f172a); border: 3px solid var(--accent);
   border-radius: 24px; padding: 28px 20px; text-align: center; box-shadow: var(--shadow);

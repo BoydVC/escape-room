@@ -1,4 +1,4 @@
-"""Boyd Family Escape Room server on 127.0.0.1:4352 (stdlib)."""
+"""Rivera Family Escape Room server on 127.0.0.1:4352 (stdlib)."""
 import http.server, os, socketserver
 HERE = os.path.dirname(os.path.abspath(__file__))
 PORT = int(os.environ.get("ER_PORT", "4352"))

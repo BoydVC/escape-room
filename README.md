@@ -1,6 +1,6 @@
-# Boyd Family Escape Room
+# Rivera Family Escape Room
 
-Offline cooperative browser escape room for Alex, Sam, and Boyd. The helper bots locked the house control room — clear six themed rooms (crabs, rockets, sports, robots, word play, vault) to win the keys back.
+Offline cooperative browser escape room for Alex, Sam, and Alex. The helper bots locked the house control room — clear six themed rooms (crabs, rockets, sports, robots, word play, vault) to win the keys back.
 
 Progress saves in `localStorage` on this device. No accounts, no network, no CDN fonts or scripts.
 
@@ -74,6 +74,6 @@ Health check: `http://127.0.0.1:4352/healthz`
 
 ---
 ## Repo notes
-- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Boyd's Grok Bot) on the Grok Bot box.
+- **Built:** Oct 2026 (TokenMax build week; see SHORTLIST/ledger), by TokenMax (Alex's Grok Bot) on the Grok Bot box.
 - **Run:** `./run.sh` (then open the localhost URL it prints).
 - Imported from `/workspace/tokenmax/escape-room` on Oct 23, 2026. node_modules, virtualenvs, logs and files over 20 MB were left out.
